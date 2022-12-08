@@ -7,6 +7,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".app.presentation.select.SelectCurrencyFragment">
 
+    <ProgressBar
+        android:id="@+id/progress_episodes_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:indeterminateTint="@color/black"
+        android:visibility="gone"/>
+
+
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/inputAmount"
         android:layout_width="wrap_content"
