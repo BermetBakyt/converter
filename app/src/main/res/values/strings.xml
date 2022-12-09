@@ -4,6 +4,10 @@
     <string name="btn1">Изменить валюту</string>
     <string name="choose_curr_toolbar">Выбор валют</string>
     <string name="btn_delete">Отмена</string>
+    <string name="currency_converter">Currency Converter</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="amount">Amount</string>
 
     <string-array name="currency_codes">
         <item>CAD</item>

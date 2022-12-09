@@ -1,6 +1,6 @@
-package com.test.converter.data.network.services
+package com.test.converter.data.services
 
-import com.test.converter.app.presentation.models.CurrencyResponse
+import com.test.converter.data.models.CurrencyResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

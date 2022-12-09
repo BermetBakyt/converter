@@ -1,4 +1,4 @@
-package com.test.converter.app.presentation.models
+package com.test.converter.data.models
 
 data class CurrencyResponse(
     val base: String,

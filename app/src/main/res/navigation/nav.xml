@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/selectCurrencyFragment">
+
+    <fragment
+        android:id="@+id/selectCurrencyFragment"
+        android:name="com.test.converter.presentation.select.SelectCurrencyFragment"
+        android:label="fragment_select"
+        tools:layout="@layout/fragment_select" />
+</navigation>
