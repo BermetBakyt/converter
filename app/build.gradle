@@ -28,9 +28,6 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
         }
-        getByName("debug") {
-            buildConfigField("String", "BASE_URL", "\"https://exchangeratesapi.io/\"")
-        }
     }
 
     compileOptions {

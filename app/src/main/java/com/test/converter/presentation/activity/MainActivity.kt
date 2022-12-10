@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import com.test.converter.databinding.ActivityMainBinding
-import com.test.converter.presentation.select.SelectViewModel
+import com.test.converter.presentation.activity.SelectViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -1,4 +1,4 @@
-package com.test.converter.presentation.select
+package com.test.converter.presentation.activity
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
